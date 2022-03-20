@@ -17,7 +17,7 @@
         android:background="@drawable/logo" />
 
     <TextView
-        android:text="."
+        android:text=""
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
@@ -38,6 +38,7 @@
         android:layout_height="60dp"
         android:layout_below="@id/textView"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
         android:background="@drawable/tb_kuis" />
 
     <ImageButton
@@ -46,6 +47,7 @@
         android:layout_height="60dp"
         android:layout_below="@id/imageKuis"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
         android:background="@drawable/tb_game" />
 
     <ImageButton

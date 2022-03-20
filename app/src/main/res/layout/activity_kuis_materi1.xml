@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KuisMateri1Activity"
+    android:id="@+id/activity_kuis_materi1"
+    android:background="@color/white">
+
+    <ImageButton
+        android:id="@+id/soal"
+        android:layout_width="700dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:background="@color/black" />
+
+    <ImageButton
+        android:id="@+id/jawaban1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/soal"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/purple_500" />
+
+    <ImageButton
+        android:id="@+id/jawaban2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/soal"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/jawaban1"
+        android:background="@color/purple_700" />
+
+    <ImageButton
+        android:id="@+id/jawaban3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/soal"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toLeftOf="@id/jawaban1"
+        android:background="@color/purple_700" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/soal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="SKOR : " />
+
+    <ImageButton
+        android:id="@+id/help"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+
+        android:background="@drawable/tb_tentang" />
+
+    <ImageButton
+        android:id="@+id/kembali"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/tb_exit" />
+
+
+</RelativeLayout>

@@ -2,21 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_materi"
+    android:id="@+id/activity_kuis"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bgmtk"
-    tools:context=".MateriActivity">
-
-
-    <ImageButton
-        android:id="@+id/logo"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_above="@+id/horizontal"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp"
-        android:background="@drawable/logo" />
+    tools:context=".KuisActivity">
 
     <HorizontalScrollView
         android:id="@+id/horizontal"
@@ -33,41 +23,46 @@
             android:layout_height="match_parent">
 
             <ImageButton
-                android:id="@+id/materi1"
+                android:id="@+id/kuis1"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
+                android:layout_marginRight="5dp"
                 android:background="@drawable/tb_materi">
 
             </ImageButton>
 
             <ImageButton
-                android:id="@+id/materi2"
+                android:id="@+id/kuis2"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
+                android:layout_marginRight="5dp"
                 android:background="@drawable/tb_materi">
 
             </ImageButton>
 
             <ImageButton
-                android:id="@+id/materi3"
+                android:id="@+id/kuis3"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
+                android:layout_marginRight="5dp"
                 android:background="@drawable/tb_materi">
 
             </ImageButton>
 
             <ImageButton
-                android:id="@+id/materi5"
+                android:id="@+id/kuis5"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
+                android:layout_marginRight="5dp"
                 android:background="@drawable/tb_materi">
 
             </ImageButton>
 
             <ImageButton
-                android:id="@+id/materi6"
+                android:id="@+id/kuis6"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
+                android:layout_marginRight="5dp"
                 android:background="@drawable/tb_materi">
 
             </ImageButton>
@@ -76,6 +71,7 @@
                 android:id="@+id/materi7"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
+                android:layout_marginRight="5dp"
                 android:background="@drawable/tb_materi">
 
             </ImageButton>
@@ -90,6 +86,7 @@
         android:layout_height="60dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
         android:background="@drawable/tb_tentang" />
 
     <ImageButton

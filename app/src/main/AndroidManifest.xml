@@ -10,8 +10,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
         <activity
+            android:name=".KuisMateri2Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisMateri1Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Materi2Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".BilanganBulatActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
             android:name=".MateriActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
