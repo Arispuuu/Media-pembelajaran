@@ -2,10 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bilangan_bulat1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".Materi2Activity">
+    tools:context=".bilanganbulat.BilanganBulat1Activity">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -13,8 +14,8 @@
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:layout_marginLeft="5dp"
-        android:layout_marginBottom="70dp"
         android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
         android:scrollbarAlwaysDrawVerticalTrack="true"
         android:scrollbarSize="0dp"
         android:scrollbarStyle="insideOverlay"
@@ -30,7 +31,7 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/sm1"
+                android:id="@+id/s1"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentLeft="true"
@@ -38,10 +39,11 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/tb_materi">
+
             </ImageButton>
 
             <ImageButton
-                android:id="@+id/sm2"
+                android:id="@+id/s2"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentLeft="true"
@@ -49,10 +51,11 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/tb_materi">
+
             </ImageButton>
 
             <ImageButton
-                android:id="@+id/sm3"
+                android:id="@+id/s3"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentLeft="true"
@@ -60,10 +63,11 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/tb_materi">
+
             </ImageButton>
 
             <ImageButton
-                android:id="@+id/sm4"
+                android:id="@+id/s4"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentLeft="true"
@@ -71,10 +75,11 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/tb_materi">
+
             </ImageButton>
 
             <ImageButton
-                android:id="@+id/sm5"
+                android:id="@+id/s5"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentLeft="true"
@@ -82,10 +87,11 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/tb_materi">
+
             </ImageButton>
 
             <ImageButton
-                android:id="@+id/sm6"
+                android:id="@+id/s6"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentLeft="true"
@@ -93,10 +99,11 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/tb_materi">
+
             </ImageButton>
 
             <ImageButton
-                android:id="@+id/sm7"
+                android:id="@+id/s7"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentLeft="true"
@@ -104,10 +111,11 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/tb_materi">
+
             </ImageButton>
 
             <ImageButton
-                android:id="@+id/sm8"
+                android:id="@+id/s8"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentLeft="true"
@@ -115,10 +123,11 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/tb_materi">
+
             </ImageButton>
 
             <ImageButton
-                android:id="@+id/sm9"
+                android:id="@+id/s9"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentLeft="true"
@@ -126,10 +135,11 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/tb_materi">
+
             </ImageButton>
 
             <ImageButton
-                android:id="@+id/sm10"
+                android:id="@+id/s10"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentLeft="true"
@@ -137,10 +147,11 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/tb_materi">
+
             </ImageButton>
 
             <ImageButton
-                android:id="@+id/sm11"
+                android:id="@+id/s11"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_alignParentLeft="true"
@@ -148,6 +159,7 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/tb_materi">
+
             </ImageButton>
 
         </LinearLayout>
@@ -155,33 +167,35 @@
 
     <ImageView
         android:id="@+id/tm1"
-        android:layout_width="700dp"
-        android:layout_height="360dp"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@+id/btkembali"
         android:background="@color/black" />
 
     <ImageButton
-        android:id="@+id/help"
+        android:id="@+id/btkembali"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
         android:background="@drawable/tb_tentang" />
 
     <ImageButton
-        android:id="@+id/kembali"
+        android:id="@+id/bthome"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/tb_exit"/>
-
 
 </RelativeLayout>

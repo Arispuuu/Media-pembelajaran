@@ -33,18 +33,20 @@
             android:layout_height="match_parent">
 
             <ImageButton
-                android:id="@+id/materi1"
+                android:id="@+id/btBulat"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:background="@drawable/tb_materi">
+                android:layout_marginRight="10dp"
+                android:background="@color/black">
 
             </ImageButton>
 
             <ImageButton
-                android:id="@+id/materi2"
+                android:id="@+id/btOperasi"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:background="@drawable/tb_materi">
+                android:layout_marginRight="10dp"
+                android:background="@color/purple_200">
 
             </ImageButton>
 
@@ -52,6 +54,7 @@
                 android:id="@+id/materi3"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
+                android:layout_marginRight="10dp"
                 android:background="@drawable/tb_materi">
 
             </ImageButton>
@@ -60,6 +63,7 @@
                 android:id="@+id/materi5"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
+                android:layout_marginRight="10dp"
                 android:background="@drawable/tb_materi">
 
             </ImageButton>
@@ -68,6 +72,7 @@
                 android:id="@+id/materi6"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
+                android:layout_marginRight="10dp"
                 android:background="@drawable/tb_materi">
 
             </ImageButton>
@@ -76,6 +81,7 @@
                 android:id="@+id/materi7"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
+                android:layout_marginRight="10dp"
                 android:background="@drawable/tb_materi">
 
             </ImageButton>

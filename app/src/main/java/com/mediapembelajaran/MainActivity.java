@@ -25,5 +25,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        pindah = findViewById(R.id.buttonKuis);
+        pindah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,KuisActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+
     }
 }

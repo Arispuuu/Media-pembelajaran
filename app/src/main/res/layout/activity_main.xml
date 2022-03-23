@@ -33,7 +33,7 @@
         android:background="@drawable/tb_materi" />
 
     <ImageButton
-        android:id="@+id/imageKuis"
+        android:id="@+id/buttonKuis"
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_below="@id/textView"
@@ -45,7 +45,7 @@
         android:id="@+id/imageGame"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:layout_below="@id/imageKuis"
+        android:layout_below="@id/buttonKuis"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
         android:background="@drawable/tb_game" />

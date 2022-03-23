@@ -1,4 +1,4 @@
-package com.mediapembelajaran;
+package com.mediapembelajaran.OperasiHitung;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,32 +7,33 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-import com.mediapembelajaran.OperasiHitung.OperasiHitung1Activity;
-import com.mediapembelajaran.bilanganbulat.BilanganBulat1Activity;
+import com.mediapembelajaran.MainActivity;
+import com.mediapembelajaran.MateriActivity;
+import com.mediapembelajaran.R;
 
-public class MateriActivity extends AppCompatActivity {
+public class OperasiHitung1Activity extends AppCompatActivity {
     ImageButton pindah;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_materi);
+        setContentView(R.layout.activity_operasi_hitung1);
 
-        pindah = findViewById(R.id.btBulat);
+        pindah = findViewById(R.id.btkembali);
         pindah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MateriActivity.this, BilanganBulat1Activity.class);
+                Intent intent = new Intent(OperasiHitung1Activity.this, MateriActivity.class);
                 startActivity(intent);
 
             }
         });
 
-        pindah = findViewById(R.id.btOperasi);
+        pindah = findViewById(R.id.bthome);
         pindah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MateriActivity.this, OperasiHitung1Activity.class);
+                Intent intent = new Intent(OperasiHitung1Activity.this, MainActivity.class);
                 startActivity(intent);
 
             }
